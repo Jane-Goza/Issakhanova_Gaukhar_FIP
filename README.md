@@ -1,4 +1,4 @@
-# Issakhanova_Gaukhar_FIP
+# Hoegaarden-Blue Steel sport - MT-FIP
 This is my Final Integrated Project for the 2nd semester.
 
 # Mit License
