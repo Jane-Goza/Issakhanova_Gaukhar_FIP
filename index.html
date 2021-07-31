@@ -8,72 +8,81 @@
   <link rel="stylesheet" href="css/main.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/reset.css">
 </head>
-<body>
-  <h2 class="hidden">Home</h2>
 
-  <section id="topBar">
-    <h2>You must be of legal drinking age to enter this site!</h2>
-  </section><!--end topBar-->
+<body>
+  <h2 class="hidden">Homepage</h2>
 
 	<div id="siteContainer">
-    	<header id="mainHeader">
-        	<div class="logo"><img src="image" alt="logo"></div><!--end logo-->
-            <nav id="mainNav">
-                <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="beers.html">Beers</a></li>
-                    <li><a href="story.html">Story</a></li>
-                    <li><a href="recipes.html">Recipes</a></li>
-                   <li> <a href="contactus.html">Contacts</a></li>
-                </ul>
-            </nav><!--end mainNav-->
+    	<header class="box box1">
+        	<div id="mainHeader">
+              <img class="logo" src="images/logo.svg" alt="logo">
+              <div class="heart_icon">
+                <img src="images/heart_icon.svg" alt="heart">
+              </div>
+              <div class="basket_icon">
+                <img src="images/basket_icon.svg" alt="basket">
+              </div>
+          </div>
         </header><!--end mainHeader-->
 
-            <section class="promo">
-                 <h2 class="hidden">Promo space</h2>
-                 <div class="promoImage">
-                   <img src="image" alt="promoimage">
-                </div>
-           </section><!--end of Promo-->
-
-            <section class="productInfo">
-              <h4 class="hidden">About our beer</h4>
-                <section class="productImage">
-                  <img src="image" alt="product image">
-                </section>
-
-            	<section class="productDesc">
-                          <h4>Our advantages</h4>
-                          <p>
-                            Blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah, blah,
-                          </p>
-                </section><!--end productDesc1-->
-            </section><!--end productInfo-->
-
-            <section class="promo">
-                 <h2 class="hidden">Promo space</h2>
-                 <div class="promoImage">
-                   <img src="image" alt="promovideo">
-                </div>
-           </section>
-
-        <footer id="mainFooter">
-          <div class="logo"><img src="image" alt="logo"></div>
-
-        	<div id="footerNav">
-                <ul>
+        <nav class="box box2" id="mainNav">
+            <h2 class="hidden">Main Navigation</h2>
+            <button id="button"></button>
+            <div id="burgerCon">
+              <ul id="burgerMenu">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="beers.html">Beers</a></li>
                   <li><a href="story.html">Story</a></li>
                   <li><a href="recipes.html">Recipes</a></li>
                  <li> <a href="contactus.html">Contacts</a></li>
-                </ul>
-            </div><!--end FooterNav-->
+              </ul>
+            </div>
+        </nav><!--end mainNav-->
+
+            <div class="box box3">
+                 <h2 class="hidden">Promo image</h2>
+                   <img class="promo" src="images/sport.jpg" alt="sportsmen">
+           </div><!--end of Promo-->
+
+            <section class="box box4">
+              <h2>About us</h2>
+              <div class="productInfo">
+                <img class="productImage" src="images/bottle.jpg" alt="product image">
+            <section class="productDesc">
+                        <p>
+                          BlueSteel sports is the result of our creative experimentation in the art of Australian tea tree beverage creation, born through many iterations.
+                          Beer meets with an intense aroma, in which notes of coriander and orange are easily guessed.
+                        </p>
+                        <p>The palate is balanced and dry, while the finish is long with a noticeable amount of sweetness - although not sugary.</p>
+                        <p>The presence of tea tree makes the aroma fresh, and gives the taste a subtle cooling effect, making acquaintance with this drink more interesting.</p>
+                        <p>Discover a new side of beer.</p>
+              </section><!--end productDesc1-->
+              </div>
+            </section>
+
+            <section class="box box3">
+                 <h2 class="hidden">Promo video</h2>
+                   <video class="promo" src="images/promo_video.mp4" controls="controls" poster="images/posterimage.jpg"></video>
+           </section>
+
+           <div class="box box2">
+                 <ul id="footerNav">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="beers.html">Beers</a></li>
+                   <li><a href="story.html">Story</a></li>
+                   <li><a href="recipes.html">Recipes</a></li>
+                  <li> <a href="contactus.html">Contacts</a></li>
+                 </ul>
+             </div><!--end FooterNav-->
+
+        <footer class="box box1">
+          <div id="mainFooter">
+            <img class="logo" src="images/logo.svg" alt="logo">
 
             <div id="copyRight">
                 <p>© Issakhanova Gaukhar. FIP. 2021.</p>
-            </div><!--end Copyright-->
+            </div>
+          </div>
         </footer><!--end mainFooter-->
     </div><!--end siteContainer-->
 <script src="js/main.js"></script>
