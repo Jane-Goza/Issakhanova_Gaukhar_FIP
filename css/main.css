@@ -324,3 +324,178 @@ body { font-size: 100%; }
 
   #mainNav, #footerNav{ margin-left: 25%; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page2. Beers */
+
+.line {
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #fff;
+  margin: 20px;
+}
+
+.productContainer {
+  max-width: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+	background-color: #fff;
+  outline: 2px solid #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.productImages {
+  max-width: 130px;
+  margin: 10px;
+	align-items: center;
+  	background-color: #fff;
+  outline: 2px solid #efefef;
+  border-radius: 3px;
+  display: flex;
+}
+
+.productText {
+  max-width: 130px;
+  margin: 10px;
+	background-color: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.productIcon1 { max-width: 15px; margin-left: auto; }
+
+.productIcon2 {
+  max-width: 15px;
+  margin-left: 5px;
+}
+
+.space {
+  max-width: 390px;
+  margin: auto;
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 160px;
+}
+
+@media screen and (min-width: 640px) {
+  .productContainer { max-width: 180px; }
+
+  .productImages { max-width: 160px; }
+
+  .productText { max-width: 160px; }
+
+  .space {
+    margin-right: 190px;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .productContainer {
+    max-width: 220px;
+    margin-bottom: 20px;
+  }
+
+  .productImages {
+    max-width: 190px;
+    margin: 15px;
+  }
+
+  .productText {
+    max-width: 190px;
+    margin: 15px;
+  }
+
+  .productIcon1 { max-width: 20px; }
+
+  .productIcon2 {
+    max-width: 20px;
+  }
+
+  .space {
+    margin-right: 230px;
+    max-width: 210px; }
+}
+
+@media screen and (min-width: 920px) {
+  .productContainer { max-width: 260px; }
+
+  .productImages { max-width: 240px; }
+
+  .productText { max-width: 240px; }
+
+  .space {
+    margin-right: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .productContainer {
+  	max-width: 310px;
+  	margin-bottom: 40px;
+  }
+
+  .productImages {
+  	max-width: 290px;
+    margin: 20px;
+  }
+
+  .productText {
+  	max-width: 290px;
+  	margin: 20px;
+  }
+
+  .productIcon1 { max-width: 25px; }
+
+  .productIcon2 {
+    max-width: 25px;
+  }
+
+  .space { margin-right: 320px; }
+}
+
+@media screen and (min-width: 1280px) {
+  .productContainer {
+  	max-width: 390px;
+  	margin-bottom: 40px;
+  }
+
+  .productImages {
+  	max-width: 345px;
+    margin: 20px;
+  }
+
+  .productText {
+  	max-width: 345px;
+  	margin: 20px;
+  }
+
+  .productIcon1 { max-width: 30px; }
+
+  .productIcon2 {
+    max-width: 30px;
+  }
+
+  .space { margin-right: 400px; }
+}
